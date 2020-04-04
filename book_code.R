@@ -8,7 +8,7 @@
 
   ## parameter, initial, and max time value
      lambda <- 0.3
-	 p0 <- 8.0s
+	 p0 <- 8.0
      tmax <- 10
   ## true solution
      plot(function(t) p0*exp(lambda*t), lwd=2, col=2,
